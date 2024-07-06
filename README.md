@@ -54,13 +54,13 @@ This project is a user management system where you can add, view, edit, and dele
 ## Screenshots
 
 ### Add User
-![Add User](Crud%20and%20Frontend/add-user.png)
+![Add User](add-user.png)
 
 ### View Users
-![View Users](Crud%20and%20Frontend/user-list.png)
+![View Users](user-list.png)
 
 ### Edit User
-![Edit User](Crud%20and%20Frontend/edit-user.png)
+![Edit User](edit-user.png)
 
 ### Delete User
 ![Delete User](delete-user.png)
