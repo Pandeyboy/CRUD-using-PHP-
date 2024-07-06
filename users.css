@@ -1,0 +1,128 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    ;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+}
+
+.card {
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.card-header {
+
+    color: black;
+    padding: 10px 20px;
+    margin-left: 280px;
+    border-bottom: 1px solid #ddd;
+    border-radius: 5px 5px 0 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-header strong {
+    font-size: 1.25rem;
+}
+
+.card-header a {
+    color: wheat;
+    text-decoration: none;
+    background-color: black;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table th,
+.table td {
+    padding: 10px;
+    border: 1px solid black;
+    text-align: left;
+}
+
+.table th {
+    background-color: blue;
+    color: white;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-primary {
+    color: green;
+    text-decoration: none;
+}
+
+.text-primary:hover {
+    text-decoration: underline;
+}
+
+.text-danger {
+    color: red;
+    text-decoration: none;
+}
+
+.text-danger:hover {
+    text-decoration: underline;
+}
+
+.add {
+    align-items: center;
+    appearance: none;
+    background-image: radial-gradient(100% 100% at 100% 0, #5adaff 0, #5468ff 100%);
+    border: 0;
+    border-radius: 6px;
+    box-shadow: rgba(0, 255, 0, 0.4) 0 2px 4px, rgba(0, 255, 0, 0.3) 0 7px 13px -3px, rgba(0, 255, 0, 0.5) 0 -3px 0 inset;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: "JetBrains Mono", monospace;
+    height: 48px;
+    justify-content: center;
+    line-height: 1;
+    list-style: none;
+    overflow: hidden;
+    padding-left: 16px;
+    padding-right: 16px;
+    position: relative;
+    text-align: left;
+    text-decoration: none;
+    transition: box-shadow .15s, transform .15s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    will-change: box-shadow, transform;
+    font-size: 18px;
+}
+
+.add:focus {
+    box-shadow: #00ff00 0 0 0 1.5px inset, rgba(0, 255, 0, 0.4) 0 2px 4px, rgba(0, 255, 0, 0.3) 0 7px 13px -3px, #00ff00 0 -3px 0 inset;
+}
+
+.add:hover {
+    box-shadow: rgba(0, 255, 0, 0.4) 0 4px 8px, rgba(0, 255, 0, 0.3) 0 7px 13px -3px, #00ff00 0 -3px 0 inset;
+    transform: translateY(-2px);
+}
+
+.add:active {
+    box-shadow: #00ff00 0 3px 7px inset;
+}
