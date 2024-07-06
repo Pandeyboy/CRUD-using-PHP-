@@ -1,5 +1,4 @@
-# CRUD-using-PHP-
-# CRUD and Frontend Project
+# CRUD-using-PHP
 
 This project demonstrates a basic CRUD (Create, Read, Update, Delete) application with a frontend built using HTML, CSS, and JavaScript, and a backend written in PHP with a MySQL database managed via PHPMyAdmin.
 
@@ -18,22 +17,22 @@ This project is a user management system where you can add, view, edit, and dele
 
 ## Features
 
-- Add User: Form to add new users with validation.
-- View Users: List all users in a tabular format.
-- Edit User: Edit user information.
-- Delete User: Remove a user from the system.
-- Validation: Form validation to ensure correct data entry.
+- **Add User**: Form to add new users with validation.
+- **View Users**: List all users in a tabular format.
+- **Edit User**: Edit user information.
+- **Delete User**: Remove a user from the system.
+- **Validation**: Form validation to ensure correct data entry.
 
 ## Installation
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/Pandeyboy/CRUD-using-PHP-.git
+    git clone https://github.com/Pandeyboy/CRUD-using-PHP.git
     ```
 
 2. Navigate to the project directory:
     ```sh
-    cd Crud-and-Frontend
+    cd CRUD-using-PHP
     ```
 
 3. Set up the database:
@@ -47,10 +46,10 @@ This project is a user management system where you can add, view, edit, and dele
 
 ## Usage
 
-1. Add User: Navigate to the add user page and fill out the form.
-2. View Users: The main page displays all users in a table.
-3. Edit User: Click the edit button next to a user to update their information.
-4. Delete User: Click the delete button to remove a user.
+1. **Add User**: Navigate to the add user page and fill out the form.
+2. **View Users**: The main page displays all users in a table.
+3. **Edit User**: Click the edit button next to a user to update their information.
+4. **Delete User**: Click the delete button to remove a user.
 
 ## Screenshots
 
@@ -64,7 +63,7 @@ This project is a user management system where you can add, view, edit, and dele
 ![Edit User](Crud%20and%20Frontend/edit-user.png)
 
 ### Delete User
-![Delete User](Crud%20and%20Frontend/delete-user.png)
+![Delete User](delete-user.png)
 
 ## Technologies Used
 
@@ -75,5 +74,4 @@ This project is a user management system where you can add, view, edit, and dele
 ## Acknowledgements
 
 - This project was developed to demonstrate basic CRUD operations with a user-friendly interface and proper form validation.
-
 
