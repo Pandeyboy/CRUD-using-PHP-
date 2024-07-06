@@ -28,7 +28,7 @@ This project is a user management system where you can add, view, edit, and dele
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/Pandeyboy/Crud-and-Frontend.git
+    git clone https://github.com/Pandeyboy/CRUD-using-PHP-.git
     ```
 
 2. Navigate to the project directory:
